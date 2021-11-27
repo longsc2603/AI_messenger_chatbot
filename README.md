@@ -24,5 +24,7 @@ When you finish your installation, you can just simply chat with the bot, here i
 
 ![image](https://user-images.githubusercontent.com/56826526/143668513-ca412e4c-6fbc-4f13-a774-7c53b48dd5cc.png)
 ![image](https://user-images.githubusercontent.com/56826526/143668490-d08ebe5c-6820-4c10-920d-ee67693efa3d.png)
+
+The two images above are the results of my simple neural network model, as you can check in the code, the performance of this model on the test set in [test_content.json](test_content.json) is not as high as the other two models I create using Scikit-learn library. But with a lot more data and some fine-tuning (which you can play with on your own time), the neural network is expected to perform much better.
 # Customize for your own case:
 I have already made some basic tags and responses for the bot, but if you ever feel the need to change the way the bot responses, you can always customize the [content.json](content.json) file just by creating some new `tag` and give possible `patterns` and `responses` for each `tag`.
