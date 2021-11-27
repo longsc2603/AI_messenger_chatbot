@@ -1,0 +1,178 @@
+{
+    "intents": 
+    [
+        {
+            "tag": "Greeting",
+            "patterns": 
+            [
+                "Hi",
+                "Hi there",
+                "Hello there",
+                "Hey",
+                "Is anyone there?",
+                "Hello"
+            ],
+            "responses": 
+            [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Hiii :D",
+                "Hello there!"
+            ]
+        },
+        {
+            "tag": "NameQuery",
+            "patterns": 
+            [
+                "What is your name?",
+                "What could I call you?",
+                "What can I call you?",
+                "What do your friends call you?",
+                "Who are you?",
+                "Tell me your name"
+            ],
+            "responses": 
+            [
+                "You can call me Alex",
+                "You may call me Alex",
+                "Call me Alex",
+                "I am Alex",
+                "My name is Alex"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": 
+            [
+                "Bye",
+                "See you later", 
+                "Goodbye",
+                "Good bye",
+                "Thanks, bye",
+                "Thank you, bye",
+                "Thank you, goodbye"
+            ],
+            "responses": 
+            [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Good bye!"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": 
+            [
+                "OK Thank you",
+                "OK",
+                "OK Thanks",
+                "Thanks", 
+                "Thank you", 
+                "That's helpful", 
+                "Thanks a lot!"
+            ],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "OK :D"]
+        },
+        { 
+            "tag": "Clever",
+            "patterns": 
+            [
+                "You are very clever",
+                "You are a very clever bot",
+                "You are very intelligent",
+                "You are a very intelligent bot",
+                "You are a genious",
+                "Clever",
+                "Genious",
+                "Smart",
+                "That's brilliant"
+            ],
+            "responses": 
+            [
+                "Thank you for saying so",
+                "I was trained well",
+                "Thanks :D"
+            ]
+        },
+        {
+            "tag": "Items",
+            "patterns": 
+            [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "What do you have for me?",
+                "Do you sell anything?",
+                "What do you got for me?"
+            ],
+            "responses": 
+            [
+                "We sell coffee and tea",
+                "We have coffee and tea"
+            ]
+        },
+        {
+            "tag": "Swearing",
+            "patterns": 
+            [
+                "fuck off",
+                "fuck",
+                "fucking shit",
+                "shit",
+                "fuck you",
+                "bullshit",
+                "damn",
+                "damn it"
+            ],
+            "responses": 
+            [
+                "Please do not swear",
+                "How rude of you!",
+                "That is not very nice"
+            ]
+        },
+        {
+            "tag": "Payments",
+            "patterns": 
+            [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Do you take cash only?",
+                "Do you take cash?",
+                "How can I pay you?",
+                "Can I use credit cards?"
+            ],
+            "responses": 
+            [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "Funny",
+            "patterns": 
+            [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Can you be funny?",
+                "Do you know a joke?",
+                "Do you know any jokes?",
+                "How about a joke",
+                "Make me laugh",
+                "Give me a joke"
+            ],
+            "responses": 
+            [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison.",
+                "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
+                "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
+                "My mate Sid was a victim of I.D. theft. Now we just call him S."
+            ]
+        }
+    ]
+}

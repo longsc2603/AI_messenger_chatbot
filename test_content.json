@@ -1,0 +1,100 @@
+{
+    "intents": 
+    [
+        {
+            "tag": "Greeting",
+            "patterns": 
+            [
+                "Hi you",
+                "Hello, is anyone there?",
+                "Hey you"
+            ]
+        },
+        {
+            "tag": "NameQuery",
+            "patterns": 
+            [
+                "How could I call you?",
+                "How should I call you?",
+                "Please tell your name"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": 
+            [
+                "Bye bye",
+                "See you again", 
+                "See you",
+                "Thanks, goodbye"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": 
+            [
+                "Oh Ok thanks",
+                "Thank you so much", 
+                "That's really helpful", 
+                "Thanks so much!"
+            ]
+        },
+        { 
+            "tag": "Clever",
+            "patterns": 
+            [
+                "You are a smart bot",
+                "You are very smart",
+                "You are an intelligent bot",
+                "What a genIous!",
+                "That's Smart"
+            ]
+        },
+        {
+            "tag": "Items",
+            "patterns": 
+            [
+                "What items do you have?",
+                "Can you tell me What do you sell?",
+                "What do you have?",
+                "Do you have anything for me?",
+                "You selling something?"
+            ]
+        },
+        {
+            "tag": "Swearing",
+            "patterns": 
+            [
+                "fuck this shit",
+                "fucking",
+                "that's bullshit",
+                "damn you",
+                "fucking damn it"
+            ]
+        },
+        {
+            "tag": "Payments",
+            "patterns": 
+            [
+                "What credit cards do you take?",
+                "Can I use Mastercard?",
+                "What Can I pay with?",
+                "Do you accept cash?",
+                "Can I use credit cards to pay?"
+            ]
+        },
+        {
+            "tag": "Funny",
+            "patterns": 
+            [
+                "Can you say a joke!",
+                "Tell me something hillarious!",
+                "Can you say anything funny?",
+                "Do you know any jokes?",
+                "I want to laugh",
+                "Can you Make me laugh?",
+                "Can you Give me a joke?"
+            ]
+        }
+    ]
+}
