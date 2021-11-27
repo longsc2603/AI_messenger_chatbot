@@ -1,0 +1,4 @@
+sc/
+__pycache__/
+training_NaiveBayes.py
+training_neuralnetwork.py
